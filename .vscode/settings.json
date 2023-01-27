@@ -1,0 +1,38 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "colorize.include": [
+
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "**/*.styl",
+    "**/*.js",
+    "**/*.config.js",
+    
+
+  ],
+  "colorize.languages": [
+
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "javascript",
+    "typescript",
+    "javiscriptreact",
+    "typescriptreact"
+  ],
+  "colorize.colorized_colors": [
+  
+    "BROWSERS_COLORS",
+    "HEXA",
+    "RGB",
+    "HSL"
+  ]
+}

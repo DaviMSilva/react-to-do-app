@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  @apply w-full max-w-7xl m-auto py-4 px-2
+}
+
+.container h1 {
+  @apply font-bold text-3xl border-b-2 border-primary
+}
+
+.container form {
+  @apply block
 }
